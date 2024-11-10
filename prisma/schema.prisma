@@ -21,16 +21,16 @@ model Product {
   image       String
 }
 
-enum Role {
-  admin
-  pembeli
-  penjual
-}
+// enum Role {
+//   admin
+//   pembeli
+//   penjual
+// }
 
-model users {
-  id       Int    @id @default(autoincrement())
-  name     String
-  email    String
-  password String
-  role     Role   @default(pembeli)
-}
+// model users {
+//   id       Int    @id @default(autoincrement())
+//   name     String
+//   email    String
+//   password String
+//   role     Role   @default(pembeli)
+// }
